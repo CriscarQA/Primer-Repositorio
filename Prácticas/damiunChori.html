@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dami un Chori</title>
+</head>
+
+<body>
+    <header>
+        <h1>Dami un Chori</h1>
+    </header>
+
+    <img src="./Choris El Damy.png" alt="Logo Dami un Chori">
+
+    <section>
+        <h2>Menú</h2>
+        <h3>Criollos</h3>
+        <p>Salsas Gratis</p>
+        <ul>
+            <li>Común .................... $400</li>
+            <li>Especial ................. $500</li>
+            <li>Americano ................ $700</li>
+        </ul>
+
+        <h3>Parrilleros</h3>
+        <p>Salsas Gratis</p>
+        <ul>
+            <li>Común .................... $500</li>
+            <li>Especial ................. $600</li>
+            <li>Americano ................ $800</li>
+        </ul>
+
+        <h3>Combos</h3>
+        <p>Salsas Gratis</p>
+        <dl>
+            <dt><b>Combo 1</b> .................... $600</dt>
+            <dd>- Criollo Común + papas + gaseosa 500cc</dd>
+            <dt><b>Combo 2</b> .................... $700</dt>
+            <dd>- Criollo Especial + papas + gaseosa 500cc</dd>
+            <dt><b>Combo 3</b> .................... $900</dt>
+            <dd>- Criollo Americano + papas + gaseosa 500cc</dd>
+            <dt><b>Combo 4</b> .................... $700</dt>
+            <dd>- Parrillero Común + papas + gaseosa 500cc</dd>
+            <dt><b>Combo 5</b> .................... $800</dt>
+            <dd>- Parrillero Especial + papas + gaseosa 500cc</dd>
+            <dt><b>Combo 6</b> .................... $1000</dt>
+            <dd>- Parrillero Americano + papas + gaseosa 500cc</dd>
+        </dl>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Ubicación</h2>
+        <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <th>Ubicación</th>
+                <th>Horarios</th>
+                <th>Teléfono</th>
+            </tr>
+            <tr>
+                <td><a href="https://goo.gl/maps/w55Tct8khF7aKEwQ8" target="_blank">El BC</a></td>
+                <td>V -D 21 a 02</td>
+                <td>3835-888888</td>
+            </tr>
+            <tr>
+                <td><a href="https://goo.gl/maps/a62nejVxdcQgNYFz7" target="_blank">La Banda</a></td>
+                <td>L - J 21 a 00</td>
+                <td>3835-777777</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Pedidos</h2>
+
+        <h3>Haz tu pedido aquí</h3>
+        <form action="">
+            <p>¿De qué sucursal prefieres?</p>
+            <select name="sucursal" id="sucursal">
+                <option value="El BC">El BC</option>
+                <option value="La Banda">La Banda</option>
+            </select>
+
+            <p>¿Qué chori prefieres?</p>
+            <input type="checkbox" name="Comun" id="Comun" value="Comun">
+            <label for="Comun">Común</label>
+            <input type="number" name="ComunCantidad" id="ComunCantidad" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" name="Especial" id="Especial" value="Especial">
+            <label for="Especial">Especial</label>
+            <input type="number" name="EspecialCantidad" id="EspecialCantidad" placeholder="¿Cuántos?">
+            <br>
+            <input type="checkbox" name="Americano" id="Americano" value="Americano">
+            <label for="Americano">Americano</label>
+            <input type="number" name="AmericanoCantidad" id="AmericanoCantidad" placeholder="¿Cuántos?">
+            <br><br>
+
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="Nombre" id="Nombre" placeholder="¿Cómo te llamas?">
+            <br><br>
+
+            <label for="Teléfono">Teléfono:</label>
+            <input type="number" name="Teléfono" id="Teléfono" placeholder="Tu Teléfono">
+            <br><br>
+
+            <label for="Dirección">Dirección:</label>
+            <input type="text" name="Dirección" id="Dirección" placeholder="¿A dónde lo enviamos?">
+            <br><br>
+
+            <button type="submit">Enviar pedido</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
